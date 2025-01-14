@@ -1,6 +1,5 @@
 // Question: Pourquoi créer des services séparés ?
-// Réponse: Cela permet de centraliser les interactions avec la base de données, de rendre le code plus modulaire et de faciliter les tests unitaires.
-
+// Réponse:  Cela offre la possibilité de centraliser les interactions avec la base de données, d'améliorer la modularité du code et de simplifier la réalisation des tests unitaires.
 const { ObjectId } = require('mongodb');
 const db = require('../config/db');
 
